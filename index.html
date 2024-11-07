@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="taskhead">
+                <img src="img/to-do-list.png" alt="img">
+                <h1>To Do List</h1>
+            </div>
+            <div class="taskbox">
+                <input type="text" id="task" autocomplete="off" placeholder="Enter Task">
+                <button id="add">Add</button>
+            </div>
+            <ul class="tasklist">
+                <li>
+                    <img src="img/radio.png" alt="img-icon" class="checkicon">
+                    <span class="text">Learn Python</span>
+                    <button><img src="img/checked.png" alt="cheked-icon" id="checked"></button>
+                    <button><img src="img/pen.png" alt="editing-icon" id="edit"></button>
+                    <button><img src="img/delete.png" alt="delete-icon" id="delete"></button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
